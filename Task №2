@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+
+namespace Charp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            byte maxLevl = byte.MaxValue;
+            sbyte minLevl = sbyte.MinValue;
+
+            short depth = short.MinValue;
+            ushort height = ushort.MaxValue;
+
+            int deviation = -1110293738;
+            uint spentFuel = 0;
+
+            long l = long.MaxValue;
+            ulong ul = long.MaxValue;
+
+            float price = 10.99f; // якщо тип float обов'язково ставиться ПРЕФІКС 'f'
+            double totalExpenseMoney = 13245641700000; // типу double НЕ потрібенц префікс 'f'
+
+            string name = "Vitaliy"; // инициализация в ""
+            char pressTheKey = 'W'; // инициализация в ''
+
+            bool isDoor = false; // може бути false
+        }
+    }
+}
