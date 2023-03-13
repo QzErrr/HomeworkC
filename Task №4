@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+
+namespace Charp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string name, zodiacSign, placeWork;
+
+            Console.Write("Як ваc звати: ");
+            name = Console.ReadLine();
+            
+            Console.Write("Який ваш знак зодiаку: ");
+            zodiacSign = Console.ReadLine();
+
+            Console.Write("Де ви працюєте: ");
+            placeWork = Console.ReadLine();
+
+            Console.Write("Скiльки вам рокiв: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Вас зовут {name}, вам {age} год, вы {zodiacSign} и работаете {placeWork}.");
+        }
+    }
+}
