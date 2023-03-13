@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+
+namespace Charp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10;
+            int b = 38;
+            // в переменной a инициализируеться число 10 а в переменной b инициализируеться число 38
+            int c = (31 - 5 * a)/b; // (31 - 5 * 10)/38 
+
+            Console.Write("Вiдповiдь:" + c); // Відповідь: 0
+        }
+    }
+}
